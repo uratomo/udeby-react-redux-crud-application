@@ -18,7 +18,6 @@ class Counter extends React.Component {
   };
 
   render() {
-    console.log(this.state);
     return (
       <React.Fragment>
         <div>count: {this.state.count}</div>
