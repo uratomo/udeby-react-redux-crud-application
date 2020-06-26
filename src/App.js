@@ -5,7 +5,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello,world</h1>
+        <label htmlFor="bar">bar</label>
+        <input
+          type="text"
+          onChange={() => {
+            console.log("コメント出てくる");
+          }}
+        />
       </div>
     );
   }
