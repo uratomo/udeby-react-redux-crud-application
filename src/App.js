@@ -17,4 +17,9 @@ class App extends React.Component {
   }
 }
 
+// functionで定義する場合。あまり好きじゃない
+// const App = () => {
+//   return <div>hello</div>;
+// };
+
 export default App;
