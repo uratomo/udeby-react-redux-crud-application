@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import PropTypes from "prop-types";
 
 const App = () => {
   const profiles = [
@@ -19,6 +20,12 @@ const User = (props) => {
       Hi,I am {props.name},and {props.age}
     </div>
   );
+};
+
+// Typescriptチック
+User.propTypes = {
+  name: PropTypes.string,
+  age: PropTypes.number,
 };
 
 export default App;
