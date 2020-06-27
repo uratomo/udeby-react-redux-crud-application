@@ -1,11 +1,11 @@
-//  moduleみたいなところ？ ここで定義したメソッドをコンポーネントが呼び出して使える
-const INCREMENT = "INCREMENT";
-const DECREMENT = "DECREMENT";
+//  型定義をするところ。アクションの内容をここで決める
+export const INCREMENT = "INCREMENT";
+export const DECREMENT = "DECREMENT";
 
 export const increment = () => ({
-  type: "INCREMENT",
+  type: INCREMENT,
 });
 
 export const decrement = () => ({
-  type: "DECREMENT",
+  type: DECREMENT,
 });

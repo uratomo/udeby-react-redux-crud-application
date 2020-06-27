@@ -1,6 +1,5 @@
-const { combineReducers } = require("redux");
-
+// 実際にここで、actionsで定義したアクションで具体的な処理を決める
 import { combineReducers } from "redux";
-imort count from './count'
+import count from "./count";
 
-export default combineReducer({count})
+export default combineReducers({ count });
